@@ -1,0 +1,36 @@
+{
+  "name": "polymer-password-reset-request",
+  "version": "1.0.0",
+  "description": "password reset request",
+  "main": "polymer-password-reset-request.html",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1",
+    "cors": "^2.7.1",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.4",
+    "chai": "^3.5.0",
+    "eslint": "^1.10.3",
+    "eslint-plugin-html": "^1.4.0",
+    "mocha": "^2.4.5",
+    "web-component-tester": "^3.3.30"
+  },
+  "scripts": {
+    "test": "wct",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "polymer-password-reset-request"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gatom0g/polymer-password-reset.git"
+  },
+  "author": "Axel Caballero",
+  "license": "MIT",
+  "homepage": "https://github.com/gatom0g/polymer-password-reset#readme"
+}
